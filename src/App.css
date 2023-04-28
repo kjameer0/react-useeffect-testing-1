@@ -16,7 +16,10 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.test-box {
+  width: 80px;
+  height: 80px;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
