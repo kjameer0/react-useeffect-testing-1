@@ -8,9 +8,9 @@ export default function OtherColorSwap() {
     const interval = setInterval(() => {
       setColor((prev) => (prev === 'red' ? 'blue' : 'red'));
       setCount((prev) => prev + 1);
-      console.log('timeout function');
+      console.log('interval function');
       setWidth((prev) => (prev === '100px' ? '150px' : '100px'));
-    }, 4000);
+    }, 1000);
     return () => {
       console.log('red-blue render');
       console.log('count red blue', count);
