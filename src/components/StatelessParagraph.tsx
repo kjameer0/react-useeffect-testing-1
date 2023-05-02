@@ -11,6 +11,10 @@ export default function StatelessParagraph() {
       <br />
       Cancelling the interval (refresh page to uncancel), stops all state changes, which ends
       rerenders for that component and no others.
+      <br></br>
+      If you check the source code, you'll see I always clear my intervals in the useEffect cleanup
+      function, because if I didn't I would keep building up more and more uncleared intervals in
+      the background and
     </p>
   );
 }
