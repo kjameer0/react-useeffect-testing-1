@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+.count-text {
+  font-size: 20px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,8 +19,16 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 .test-box {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+}
+.box-container {
+  margin: auto 1rem;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 @keyframes logo-spin {
   from {
